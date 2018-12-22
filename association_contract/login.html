@@ -2,6 +2,8 @@
 <html>
 <style>
 form {
+    width: 700px;
+    margin:0px auto;
     border: 3px solid #f1f1f1;
 }
 
@@ -15,13 +17,14 @@ input[type=text], input[type=password] {
 }
 
 button {
-    background-color: #4CAF50;
-    color: white;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
     cursor: pointer;
     width: 100%;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
 }
 
 button:hover {
@@ -47,12 +50,13 @@ span.psw {
 
 
 <header id="header" class="alt">
-    <h1><a href="index.html">回首頁</a></h1>
-                   
+    <h3><a href="index.html">previous page</a></h3>       
 </header>
-    <h2>公會登入系統</h2>
+
+<div style="text-align:center;"><h2>公會登入系統</h2></div>
+
 <body>
-    <form>
+    <form role="form">
         <div class="container">
             <label><b>帳號</b></label>
             <input type="text" placeholder="Enter Account name" name="uid" required>
@@ -64,6 +68,5 @@ span.psw {
             <input type="checkbox" checked="checked"> 記住我
         </div>
     </form>
-
 </body>
 </html>

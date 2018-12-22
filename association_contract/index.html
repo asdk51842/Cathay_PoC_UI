@@ -5,27 +5,19 @@
 		<title>國泰PoC_公會系統</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--link rel="stylesheet" href="assets/css/main.css" /-->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	</head>
 	<body>
 		<div>
-			<!-- Header -->
-				<header id="header" class="alt">
-					<h1><a href="index.html">國泰PoC_公會系統</a></h1>
-					<nav id="nav">
-						<ul>
-                            <li><a href="login.html" class="button">Log In</a></li>
-							<li><a href="index.html">首頁</a></li>
-							<li>
-								<ul>
-									<li><a href="addMember.html">新增保險公司成員權限</a></li>
-									<li><a href="updateMember.html">異動保險公司成員權限</a></li>
-								</ul>
-							</li>
-							
-						</ul>
-					</nav>
-				</header>
+			<h2>國泰PoC_公會系統</h2>
+			<ul class="list-group">
+				<a href="login.html"><button type="submit" class="btn btn-primary">Log In</button></a>
+				<!--li><a href="index.html">首頁</a></li-->
+				<li class="list-group-item"><a href="addMember.html">新增保險公司成員權限</a></li>
+				<li class="list-group-item"><a href="updateMember.html">異動保險公司成員權限</a></li>	
+			</ul>			
 		</div>
 	</body>
 </html>
