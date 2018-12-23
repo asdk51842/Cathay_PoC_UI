@@ -1,20 +1,28 @@
 <!DOCTYPE <!DOCTYPE html>
 <html>
+<style>
+    form {
+        width: 700px;
+        margin:0px auto;
+        border: 3px solid #f1f1f1;
+    }
+</style>
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>查詢保單</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </head>
 <body>
-    <form>
-        <div class="container">
+    <h2 style="text-align:center">查詢保單</h2>
+    <form role="form">
+        <div class="form-group">
             <label><b>欲查詢保單編號</b></label>
-            <input type="text" placeholder="Enter insurance ID" id="insuranceID" required>            
-            <button type="submit">查詢</button>
+            <input type="text" class="form-control" placeholder="Enter insurance ID" id="insuranceID" required>            
         </div>
+        <button type="submit" class="btn btn-primary">查詢</button>
     </form>
 </body>
 </html>

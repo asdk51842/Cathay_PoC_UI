@@ -3,126 +3,47 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>異動成員名單</title>
+    <title>異動保單</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </head>
 <body>
-    <form>
-        <div class="container">
-            <label><b>產壽險別</b></label>
-            <input type="text" placeholder="Enter new cmptype" id="cmptype" required>
-            <br>
-            <label><b>公司代號</b></label>
-            <input type="text" placeholder="Enter new cmpno" id="cmpno" required>
-            <br>
-            <label><b>被保險人姓名</b></label>
-            <input type="text" placeholder="Enter new name" id="name" required>
-            <br>
-            <label><b>被保險人身分證號碼</b></label>
-            <input type="text" placeholder="Enter new idno" id="idno" required>
-            <br>
-            <label><b>被保險人出生日期</b></label>
-            <input type="text" placeholder="Enter new birdate" id="birdate" required>
-            <br>
-            <label><b>被保險人性別</b></label>
-            <input type="text" placeholder="Enter new sex" id="sex" required>
-            <br>
-            <label><b>保單號碼</b></label>
-            <input type="text" placeholder="Enter new insno" id="insno" required>
-            <br>
-            <label><b>保單分類</b></label>
-            <input type="text" placeholder="Enter new class" id="class" required>
-            <br>
-            <label><b>險種分類</b></label>
-            <input type="text" placeholder="Enter new inskind" id="inskind" required>
-            <br>
-            <label><b>險種</b></label>
-            <input type="text" placeholder="Enter new insitem" id="insitem" required>
-            <br>
-            <label><b>給付項目(身故)</b></label>
-            <input type="text" placeholder="Enter new itema" id="itema" required>
-            <br>
-            <label><b>給付項目(全殘或最高級殘)</b></label>
-            <input type="text" placeholder="Enter new itemb" id="itemb" required>
-            <br>
-            <label><b>給付項目(殘廢扶助金)</b></label>
-            <input type="text" placeholder="Enter new itemc" id="itemc" required>
-            <br>
-            <label><b>給付項目(特定事故保險金)</b></label>
-            <input type="text" placeholder="Enter new itemd" id="itemd" required>
-            <br>
-            <label><b>給付項目(初次罹患)</b></label>
-            <input type="text" placeholder="Enter new iteme" id="iteme" required>
-            <br>
-            <label><b>給付項目(醫療限額)</b></label>
-            <input type="text" placeholder="Enter new itemf" id="itemf" required>
-            <br>
-            <label><b>給付項目(醫療限額自負額)</b></label>
-            <input type="text" placeholder="Enter new itemg" id="itemg" required>
-            <br>
-            <label><b>給付項目(日額)</b></label>
-            <input type="text" placeholder="Enter new itemh" id="itemh" required>
-            <br>
-            <label><b>給付項目(住院手術)</b></label>
-            <input type="text" placeholder="Enter new itemi" id="itemi" required>
-            <br>
-            <label><b>給付項目(門診手術)</b></label>
-            <input type="text" placeholder="Enter new itemj" id="itemj" required>
-            <br>
-            <label><b>給付項目(門診)</b></label>
-            <input type="text" placeholder="Enter new itemk" id="itemk" required>
-            <br>
-            <label><b>給付項目(重大疾病(含特定傷 病))</b></label>
-            <input type="text" placeholder="Enter new iteml" id="iteml" required>
-            <br>
-            <label><b>給付項目(重大燒燙傷)</b></label>
-            <input type="text" placeholder="Enter new itemm" id="itemm" required>
-            <br>
-            <label><b>給付項目(癌症療養)</b></label>
-            <input type="text" placeholder="Enter new itemn" id="itemn" required>
-            <br>
-            <label><b>給付項目(出院療養)</b></label>
-            <input type="text" placeholder="Enter new itemo" id="itemo" required>
-            <br>
-            <label><b>給付項目(失能)</b></label>
-            <input type="text" placeholder="Enter new itemp" id="itemp" required>
-            <br>
-            <label><b>契約生效日期</b></label>
-            <input type="text" placeholder="Enter new valdate" id="valdate" required>
-            <br>
-            <label><b>契約滿期日期</b></label>
-            <input type="text" placeholder="Enter new ovrdate" id="ovrdate" required>
-            <br>
-            <label><b>保費</b></label>
-            <input type="text" placeholder="Enter new prm" id="prm" required>
-            <br>
-            <label><b>保費繳別</b></label>
-            <input type="text" placeholder="Enter new bamttype" id="bamttype" required>
-            <br>
-            <label><b>保單狀況</b></label>
-            <input type="text" placeholder="Enter new con" id="con" required>
-            <br>
-            <label><b>保單狀況生效日期</b></label>
-            <input type="text" placeholder="Enter new condate" id="condate" required>
-            <br>
-            <label><b>要保人姓名</b></label>
-            <input type="text" placeholder="Enter new askname" id="askname" required>
-            <br>
-            <label><b>要保人身分證號碼</b></label>
-            <input type="text" placeholder="Enter new askidno" id="askidno" required>
-            <br>
-            <label><b>要保人出生日期</b></label>
-            <input type="text" placeholder="Enter new askbirdate" id="askbirdate" required>
-            <br>
-            <label><b>要保人與被保險人關係</b></label>
-            <input type="text" placeholder="Enter new asktype" id="asktype" required>
-
-            <br>
-
-            <button type="submit">異動保單</button>
+    <h2 style="text-align:center">異動保單</h2>
+    
+    <form class="form-horizontal">
+        <div class="form-group row">
+            <label class="control-label col-sm-2" style="text-align:center; font-size: 140%"><b>產壽險別:</b></label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" placeholder="Enter new cmptype" id="cmptype" required>
+            </div>
+        </div> 
+        <div class="form-group row">
+            <label class="control-label col-sm-2" style="text-align:center; font-size: 140%"><b>公司代號:</b></label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" placeholder="Enter new cmpno" id="cmpno" required>
+            </div>
         </div>
+        <div class="form-group row">
+            <label class="control-label col-sm-2" style="text-align:center; font-size: 140%"><b>被保險人姓名:</b></label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" placeholder="Enter new name" id="name" required>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="control-label col-sm-2" style="text-align:center; font-size: 140%"><b>被保險人身分證號碼:</b></label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" placeholder="Enter new idno" id="idno" required>
+            </div>
+        </div> 
+        <div class="form-group row">
+            <label class="control-label col-sm-2" style="text-align:center; font-size: 140%"><b>被保險人出生日期:</b></label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" placeholder="Enter new birdate" id="birdate" required>
+            </div>
+        </div>    
+        
+        <button type="submit" class="btn btn-primary">異動保單</button>
     </form>
 </body>
 </html>
